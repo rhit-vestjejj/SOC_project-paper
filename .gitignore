@@ -1,0 +1,41 @@
+# Data directory
+data/
+!data/.gitkeep
+
+# Claude / AI assistant config
+.claude/
+.claude.*
+
+# Python cache
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+
+# Virtual environments
+.venv/
+venv/
+env/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# macOS
+.DS_Store
+
+# Output artifacts
+outputs/
+*.png
+*.pdf
+*.csv
+*.parquet
+*.pickle
+*.pkl
+*.json
+
+# IDE
+.vscode/
+.idea/
+
+# Logs
+*.log
